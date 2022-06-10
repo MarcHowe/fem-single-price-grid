@@ -4,6 +4,10 @@
 /*#### Media screen queries for mobile screens below 620px and above 620px width ####*/
 /*-- Screens above 620px width (Desktop) receive hover action on sign up button and curved corners --*/
 @media screen and (min-width: 620px) {
+    .main_container {
+        padding: 6.25rem 1.5rem 6.25rem 1.5rem;
+    }
+
     .subscription button {
         transition-duration: 0.4s;
     }
@@ -11,6 +15,7 @@
     .subscription {
         border-radius: 0px 0px 0px 8px;
     }
+
     .whyus {
         border-radius: 0px 0px 8px 0px;
     }
@@ -18,8 +23,13 @@
         background-color: green;
     }
 }
-/*-- Screens below 619px wide set bottom box bottom left/right rounded corners--*/
+/*-- Screens below 619px wide set bottom box bottom left/right rounded corners, and reduce the top padding --*/
 @media screen and (max-width: 619px) {
+    
+    .main_container {
+        padding: 0.25rem 1.5rem 6.25rem 1.5rem;
+    }
+    
     .whyus {
        border-radius: 0px 0px 8px 8px;
     }
@@ -40,7 +50,6 @@ h3, h4, p {
 .main_container {
     max-width: 37.125rem;
     min-width: 23.4375;
-    padding: 6.25rem 1.5rem 6.25rem 1.5rem;
     margin:auto;
 }
 
