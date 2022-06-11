@@ -10,13 +10,11 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Validated with](#validated-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,83 +27,51 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot](https://github.com/MarcHowe/fem-single-price-grid/blob/main/images/screenshot.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://marchowe-fem-singlepricegrid.pages.dev/
 
 ## My process
+
+I started by reading the README file and viewing the images of the desired page. I thought about the three areas 'Join our community', 'Monthy Subscription' and 'Why Us' and how they'll need to move along with the responsive design. I had viewed a recent YouTube video where Flexbox was used and decided to research this as I was building the structure in html. Once this was complete, I focused on the styling, fonts and colours (not noticing the style-guide I will admit) and finally the button and final small touches. 
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### Validated with
+
+- https://validator.w3.org
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This was my first challenge after many years away from learning a little bit of html, css and javascript, and I stumbled across this watching a few YouTube video's by [CoderCoder](https://www.youtube.com/c/TheCoderCoder). 
 
-To see how you can add code snippets, see below:
+Jump-starting the old brain cells, I was able to remember or quickly research basic html tags to get the right elements together, but I needed to research Flexbox and CSS Grid a little, which allowed me to create the responsive requirements. 
+I had a little trouble with the button which actually brought me to media queries - perhaps I could have used this earlier - but enabled me to create the button hover affect only when the browser width has been adjusted to something larger than a mobile device. 
+I instintively started to develop desktop first, rather than mobile first but realised soon after and changed my approach. 
+Finally, once I had learnt how to upload to my GitHub repository and publish to Cloudflare Pages, I ran the site through a w3.org validator which alerted me to a couple of typo's I hadn't seen and another error, related to the fact I had nested a <button> inside an <a>, which is not valid html, even though it works fine, and the recommendation is to wrap a <form> around <button> instead. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+All in it took two full evenings, including setting up VS Code, GitHub, re-learning Git and publishing the challenge. 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+This was an interesting personal challenge and I'm looking forward to the next challenge on html and css before stepping into Javascript (once again).
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CoderCoder](https://www.youtube.com/c/TheCoderCoder) - Great resource for learning front-end webdev, put me onto this challenge and will no doubt view more of her content soon. 
+- [StackOverflow](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5) - This specific resource helped me with the button link not being compliant, but used several other times when looking for answers. 
+- [CSS Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Great guide on Flexbox
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Marc Howe](https://www.mjhcloud.com)
+- Frontend Mentor - [@MarcHowe](https://www.frontendmentor.io/profile/MarcHowe)
+- Twitter - [@MarcHowe83](https://www.twitter.com/MarcHowe83)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
