@@ -5,7 +5,12 @@
 /*-- Screens above 620px width (Desktop) receive hover action on sign up button and curved corners --*/
 @media screen and (min-width: 620px) {
     .main_container {
-        padding: 6.25rem 1.5rem 6.25rem 1.5rem;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 
     .subscription button {
