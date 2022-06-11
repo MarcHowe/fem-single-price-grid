@@ -68,6 +68,7 @@ This was an interesting personal challenge and I'm looking forward to the next c
 - [CoderCoder](https://www.youtube.com/c/TheCoderCoder) - Great resource for learning front-end webdev, put me onto this challenge and will no doubt view more of her content soon. 
 - [StackOverflow](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5) - This specific resource helped me with the button link not being compliant, but used several other times when looking for answers. 
 - [CSS Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Great guide on Flexbox
+- [w3schools.com](https://www.w3schools.com/css/css3_buttons.asp) - Useful information on styling buttons, and other CSS information was viewed on this site for the project. 
 
 ## Author
 
